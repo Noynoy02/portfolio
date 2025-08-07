@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About PORTFOLIO</title>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #272626;
+      color: blanchedalmond;
+      overflow: hidden;
+    }
+
+    main {
+      height: 100%;
+      overflow-y: auto;
+      padding-bottom: 80px; /* space for fixed footer */
+    }
+
+    .p {
+      margin: 3em;
+      font-size: 30px;
+      line-height: 2;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .righty, .sunglass, .ling {
+      position: fixed;
+      width: 400px;
+      height: 300px;
+    }
+
+    .righty {
+      right: 30%;
+      top: 40%;
+      transform: translateY(-50%);
+    }
+
+    .sunglass {
+      right: 5%;
+      top: 20%;
+      transform: translateY(-50%);
+    }
+
+    .ling {
+      right: 5%;
+      top: 70%;
+      transform: translateY(-50%);
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      background-color: #272626;
+      color: blanchedalmond;
+      padding: 1em 0;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <p class="p">
+        My work is all about making portfolio<br> that would improve my coding skill
+      </p>
+    </header>
+
+    <img src="rexy.jpg" alt="Description of image" class="righty">
+    <img src="sunglass.jpg" alt="glass" class="sunglass">
+    <img src="lingo.jpg" alt="cutie" class="ling">
+
+    <!-- Optional filler content to test scrolling -->
+    <div style="height: 2000px;"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CHESTER RENZ S. GALVE</p>
+  </footer>
+</body>
+</html>
