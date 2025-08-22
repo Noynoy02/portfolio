@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About PORTFOLIO</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #110b02 0%, #b04310 100%);
+
+
+      color: blanchedalmond;
+      font-family: system-ui, sans-serif;
+     }
+
+
+     header {
+        position: fixed;
+       top: 15px;
+       left: 50%;                /* push it halfway */
+       transform: translateX(-50%); /* pull it back half its width */
+       border-radius: 35px;
+       width: 40%;               /* only half the screen */
+       height: 60px;
+       display: flex;
+       justify-content: center;  /* center content horizontally */
+       align-items: center;      /* center content vertically */
+       flex-wrap: wrap;
+       background: rgba(0, 0, 0, 0.3);
+       backdrop-filter: blur(30px);
+      z-index: 1000;
+       
+      }
+    
+
+     .ab{
+      position:fixed;
+      top: 15px;
+      left:25%;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+     }
+
+   
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;        /* this makes the gap between items */
+  justify-content: center;
+  margin-top: 10%;
+  margin-left: 20px;
+}
+
+.image-grid img,
+.image-grid .glass-box,
+.image-grid .glass-box2 {
+  width: 100%;
+  max-width: 250px; /* scales down on smaller screens */
+  height: 20px;
+  border-radius: 10px;
+}
+
+.glass-box,
+.glass-box2 {
+  background: rgba(255, 255, 255, 0.137);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 25px rgba(217, 209, 209, 0.3);
+  min-height: 150px;
+}
+
+    footer {
+      position: fixed;
+       transform: translateX(-50%);
+      left: 50%;
+      position: fixed;
+      border-radius: 35px;
+      height: 30px;
+      bottom: 20px;
+      width: 50%;
+      text-align: center;
+      padding: 1em;
+      background: rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(15px);
+      box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+    <header></header>
+    </header>
+   <div class="ab"> <p>
+      ABOUT
+    </p> 
+    </div>
+    <!-- Images in a responsive grid -->
+    <div class="image-grid">
+      
+      <div class="glass-box"></div>
+      <div class="glass-box2"></div>
+
+    <!-- Filler to test scrolling -->
+    <div style="height: 1000px;"></div>
+  
+
+  <footer>
+    <p>&copy;  GALVE</p>
+  </footer>
+</body>
+</html>
